@@ -201,6 +201,7 @@ export default function App() {
           <div className="space-y-3">
             <div className="flex items-center justify-between gap-3">
               <p className="min-w-0 flex-1 whitespace-nowrap pr-2 text-[clamp(0.58rem,2.4vw,0.875rem)] font-medium leading-none text-slate-500">
+                {t.appName}
               </p>
 
               <div className="flex shrink-0 items-center gap-2">
