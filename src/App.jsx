@@ -200,8 +200,7 @@ export default function App() {
         <header className="rounded-3xl bg-white p-4 shadow-sm sm:p-6 md:p-8">
           <div className="space-y-3">
             <div className="flex items-center justify-between gap-3">
-              <p className="min-w-0 pr-2 text-xs font-medium leading-none text-slate-500 sm:text-sm">
-                {t.appName}
+              <p className="min-w-0 flex-1 whitespace-nowrap pr-2 text-[clamp(0.58rem,2.4vw,0.875rem)] font-medium leading-none text-slate-500">
               </p>
 
               <div className="flex shrink-0 items-center gap-2">
